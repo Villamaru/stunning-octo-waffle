@@ -1,13 +1,17 @@
 # Proceso del analisis exploratorio de la base de datos de Properati (2007)
 Objetivos: 
  
-● Efectuar una limpieza del dataset provisto. Particularmente, deberá diseñar estrategias para lidiar con los datos perdidos en ciertas variables. 
+- Efectuar una limpieza del dataset provisto. Particularmente, deberá diseñar estrategias para lidiar con los datos perdidos en ciertas variables. 
 
-● Realizar un análisis descriptivo de las principales variables. 
+- Realizar un análisis descriptivo de las principales variables. 
 
-● Crear nuevas columnas a partir de las características dadas que puedan tener valor predictivo. 
+- Crear nuevas columnas a partir de las características dadas que puedan tener valor predictivo. 
  
-Un analisis preliminar del proceso de limpieza se puede encontrar en Pre_Analisis.ipynb
+1-Pre_Analisis.ipynb - Analisis preliminar del proceso de limpieza.
+
+2-Modificacion_de_datos.ipynb -Re-estabilizacion de los valores para fines del paso 3.
+
+3-Tasado_lineal.ipynb
 
 ## **Puntos de vista generales:**
 - Para hacer un programa que permita predecir el valor por metro cuadrado podriamos utilizar la variable "surface_total_in_m2" o "surface_covered_in_m2" para predecir la variable "price", estas tres features parecen tener mas relacion entre si que con "price_per_m2" la cual puede ser inferida de las anteriores.
@@ -18,9 +22,11 @@ Un analisis preliminar del proceso de limpieza se puede encontrar en Pre_Analisi
 ## **Por hacer:**
 
 - Organizar el analisis inicial de los datos
-  - Realizar un analisis escrito para las ultimas variables restantes; expresadas abajo.
+  - Realizar un analisis visual mas representativo para las variables, sobretodo las ultimas 9.
 - Revision ortografica
 
-'lat-lon', 'lat', 'lon', 'price', 'currency','price_aprox_local_currency', 'price_aprox_usd', 'surface_total_in_m2','surface_covered_in_m2', 'price_usd_per_m2', 'price_per_m2', 'floor','rooms', 'expenses', 'properati_url', 'description', 'title','image_thumbnail'
+- Crear el archivo 3 referente a la implementacion del predictor.
+  - Limpieza de las variables para entregarle al predictor.
+  - Analisis sobre la relacion entre las variables.
 
 

@@ -1,5 +1,29 @@
 # Proceso del analisis exploratorio de la base de datos de Properati (2007)
-Objetivos: 
+
+## **Por hacer:**
+
+- Organizar el analisis inicial de los datos.
+  - Realizar un analisis visual mas representativo para las variables, sobretodo las ultimas 9.
+  - Hacer de la variable "state_name" un dummie para su uso en la regresion lineal.
+   - ¿Que
+  - Visualizar la cantidad de casos en los cuales se puede confiar en la informacion de la variable "description" para obtener datos sobre "rooms"
+- Revision ortografica
+
+- Organizar el archivo 3 referente a la implementacion del predictor.
+  - Limpieza de las variables para entregarle al predictor.
+  - Analisis sobre la relacion entre las variables.
+  
+- Estimar un modelo de regresión lineal que realice predicciones para el precio por metro cuadrado.
+  - ¿Que es exactamente un modelo de regresion lineal?
+  - ¿Como implementar uno en el codigo?
+  - ¿Cúales son los requisitos para su implementacion?
+
+## **Puntos de vista generales:**
+
+![alt text](https://github.com/Villamaru/stunning-octo-waffle/blob/master/imagenes/heatmap.png "Heatmap")
+
+
+## **Objetivos 1:**
  
 - Efectuar una limpieza del dataset provisto. Particularmente, deberá diseñar estrategias para lidiar con los datos perdidos en ciertas variables. 
 
@@ -11,25 +35,12 @@ Objetivos:
 
 2-Modificacion_de_datos.ipynb -Re-estabilizacion de los valores para fines del paso 3.
 
-3-Tasado_lineal.ipynb
-
-## **Puntos de vista generales:**
-- 
+3-Tasado_lineal.ipynb - Implementación de un modelo de regresion lineal para el tasado de propiedades.
 
 
-![alt text](https://github.com/Villamaru/stunning-octo-waffle/blob/master/imagenes/heatmap.png "Heatmap")
+  
 
-## **Por hacer:**
-
-- Organizar el analisis inicial de los datos
-  - Realizar un analisis visual mas representativo para las variables, sobretodo las ultimas 9.
-- Revision ortografica
-
-- Crear el archivo 3 referente a la implementacion del predictor.
-  - Limpieza de las variables para entregarle al predictor.
-  - Analisis sobre la relacion entre las variables.
-
-Objetivos desafío 2:
+## **Objetivos 2:**
 
 - Estimar un modelo de regresión lineal que realice predicciones para el precio por metro cuadrado.
 

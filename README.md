@@ -5,7 +5,7 @@
 - Organizar el analisis inicial de los datos.
   - Realizar un analisis visual mas representativo para las variables, sobretodo las ultimas 9.
   - Hacer de la variable "state_name" un dummie para su uso en la regresion lineal.
-   - ¿Que
+   - ¿Qué states son los mas influyentes? A modo de quedarse con la menor cantidad de dummies posible.
   - Visualizar la cantidad de casos en los cuales se puede confiar en la informacion de la variable "description" para obtener datos sobre "rooms"
 - Revision ortografica
 

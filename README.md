@@ -20,6 +20,12 @@
 
 ## **Puntos de vista generales:**
 
+1-Pre_Analisis.ipynb - Analisis preliminar del proceso de limpieza.
+
+2-Modificacion_de_datos.ipynb -Re-estabilizacion de los valores para fines del paso 3.
+
+3-Tasado_lineal.ipynb - Implementación de un modelo de regresion lineal para el tasado de propiedades.
+
 ![alt text](https://github.com/Villamaru/stunning-octo-waffle/blob/master/imagenes/heatmap.png "Heatmap")
 
 
@@ -31,11 +37,6 @@
 
 - Crear nuevas columnas a partir de las características dadas que puedan tener valor predictivo. 
  
-1-Pre_Analisis.ipynb - Analisis preliminar del proceso de limpieza.
-
-2-Modificacion_de_datos.ipynb -Re-estabilizacion de los valores para fines del paso 3.
-
-3-Tasado_lineal.ipynb - Implementación de un modelo de regresion lineal para el tasado de propiedades.
 
 
   

@@ -9,9 +9,8 @@
   - Visualizar la cantidad de casos en los cuales se puede confiar en la informacion de la variable "description" para obtener datos sobre "rooms"
 - Revision ortografica
 
-- Organizar el archivo 3 referente a la implementacion del predictor.
-  - Limpieza de las variables para entregarle al predictor.
-  - Analisis sobre la relacion entre las variables.
+- El archivo 2 ahora contiene un contador de ambientes (o cuartos, o dormitorios), actualmente genera 13 075 entradas de "title" y 33 370 de "description", todavia hay que hacerle mejorías, pero suponiendo que los datos son correctos, estaría dejando a rooms, con un aproximado de 40 000 registros únicos.
+
   
 - Estimar un modelo de regresión lineal que realice predicciones para el precio por metro cuadrado.
   - ¿Que es exactamente un modelo de regresion lineal?
@@ -28,6 +27,7 @@
 
 ![alt text](https://github.com/Villamaru/stunning-octo-waffle/blob/master/imagenes/heatmap.png "Heatmap")
 
+![alt text](https://github.com/Villamaru/stunning-octo-waffle/blob/master/imagenes/Tasado_lineal_1.png "Tasado lineal version 1")
 
 ## **Objetivos 1:**
  

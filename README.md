@@ -54,3 +54,6 @@
 - Teniendo en cuenta que podría comprar y vender propiedades al precio de mercado, omitamos costos de transacción, con un capital inicial igual al valor de mercado de las propiedades en su portafolio. ¿Cuál es el mejor portafolio de propiedades que podría comprar?
   - Utilizar el modelo para ver cuales son las propiedades subvaluadas con respecto al precio tasado por el modelo, entendiendo que el modelo funciona correctamente.
 
+## **notas:**
+
+De la clase de Regresion lineal, se concluyo que: La escala de las características es irrelevante para los modelos de regresión lineal. Al cambiar la escala, simplemente cambiamos nuestra interpretación de los coeficientes.

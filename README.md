@@ -1,4 +1,4 @@
-# Proceso del analisis exploratorio de la base de datos de Properati (2007)
+# Proceso del analisis exploratorio de la base de datos de Properati (2017)
 
 ## **Por hacer:**
 
